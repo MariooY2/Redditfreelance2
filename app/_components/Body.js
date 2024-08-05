@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 function Body() {
   return (
-      <div className="lg:mt-20 mt-28 w-full h-screen flex  flex-wrap-reverse md:flex-nowrap justify-center">
+      <div className="lg:mt-20 mt-16 w-full h-screen flex  flex-wrap-reverse md:flex-nowrap justify-center">
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <div className="w-full lg:h-5/6 md:h-[70vh] h-[30vh] relative flex justify-center sm:mt-0 mt-[-100px]">
             <Image
