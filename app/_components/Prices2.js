@@ -4,23 +4,16 @@ import { useState } from "react";
 const servicesData = [
   {
     category: "Teeth Whitening",
-    services: [{ name: "Teeth Whitening", price: "$80.00" }],
+    services: [
+      { name: "Teeth Whitening", price: "$80.00", additionalInfo: "Group sessions will be discounted" }
+    ],
   },
   {
     category: "Teeth Jewelry",
     services: [
-      {
-        name: "Installation",
-        price: "$140.00",
-        additionalInfo: "$100 for Repeat Customers",
-      },
-      {
-        name: "Removal",
-        price: "$50.00",
-        additionalInfo:
-          "Removals & Installation can be discounted for repeat customers",
-      },
-      { name: "Gems", price: "Varies" },
+      { name: "Installation", price: "$140.00", additionalInfo: "$100 for Repeat Customers" },
+      { name: "Removal", price: "$50.00", additionalInfo: "$30 for repeat customers" },
+      { name: "Gems", price: "Varies", additionalInfo: "Please contact us for gem prices" },
     ],
   },
   {
@@ -33,6 +26,7 @@ const servicesData = [
       { name: "Mega Volume", price: "$250.00" },
       { name: "Classic Refill", price: "$75.00" },
       { name: "Hybrid Refill", price: "$85.00" },
+      { name: "Mega Volume Refill", price: "$150.00" },
       { name: "Volume Refill", price: "$120.00" },
       { name: "Soft Volume Refill", price: "$100.00" },
     ],
@@ -40,26 +34,10 @@ const servicesData = [
   {
     category: "Body Contouring",
     services: [
-      {
-        name: "Lipo",
-        price: "$240.00",
-        additionalInfo: "Per Session $75 to add another body area",
-      },
-      {
-        name: "Butt Lift",
-        price: "$250.00",
-        additionalInfo: "Per Session 6-12 sessions depending on the body type",
-      },
-      {
-        name: "Skin Tightening",
-        price: "$200.00",
-        additionalInfo: "Per Session $50 Small areas Face $75",
-      },
-      {
-        name: "Cellulite Reduction",
-        price: "$250.00",
-        additionalInfo: "Per Session",
-      },
+      { name: "Lipo", price: "$240.00", additionalInfo: "Per Session $75 to add another body area" },
+      { name: "Butt Lift", price: "$250.00", additionalInfo: "Per Session 6-12 sessions depending on the body type" },
+      { name: "Skin Tightening", price: "$200.00", additionalInfo: "Per Session $50 for Small Areas & $75 for Face" },
+      { name: "Cellulite Reduction", price: "$250.00", additionalInfo: "Per Session" },
       { name: "Wood Therapy", price: "$125.00", additionalInfo: "Per Session" },
     ],
   },
