@@ -30,8 +30,8 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="container mx-auto py-10 px-6 mt-14 lg:mt-20">
-      <h1 className="lg:text-7xl text-4xl font-bold text-center  mb-14">
+    <div className="container mx-auto py-10 sm:px-12 px-2 mt-16 lg:mt-20">
+      <h1 className="lg:text-7xl sm:text-4xl text-2xl font-bold text-center mb-14">
         Our Services
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">
@@ -56,15 +56,17 @@ const Services = () => {
             </div>
           </div>
         ))}
-        
       </div>
 
       <Prices2 />
       <div className="flex justify-center items-center mb-14">
         <a href="https://kuartz777.setmore.com/beta">
-          <button className="lg:text-2xl text-xl bg-white text-pink-600 lg:px-6 px-4 lg:py-3 py-2 border border-pink-600 rounded-3xl hover:bg-pink-600 hover:text-white transition duration-300" > Book Now</button>
-          </a>
-        </div>
+          <button className="lg:text-2xl text-xl bg-white text-pink-600 lg:px-6 px-4 lg:py-3 py-2 border border-pink-600 rounded-3xl hover:bg-pink-600 hover:text-white transition duration-300">
+            {" "}
+            Book Now
+          </button>
+        </a>
+      </div>
 
       <Footer />
     </div>

@@ -9,14 +9,14 @@ const Navbar = () => {
             src="/logo1.png"
             alt="Beauty Salon Logo"
             className="border rounded-full"
-            width={60}
-            height={60}
+            width={50}
+            height={50}
           />
           <span className="text-white text-2xl font-bold ml-2 hidden lg:block">
             KUARTZ
           </span>
         </div>
-        <div className="lg:space-x-5 space-x-4 sm:text-xl text-lg">
+        <div className="lg:space-x-5 space-x-3 sm:text-xl text-sm">
           <Link className="text-white hover:text-gray-200" href="/">
             Home
           </Link>

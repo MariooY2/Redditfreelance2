@@ -103,7 +103,7 @@ function Prices2() {
   };
 
   return (
-    <div className="container mx-auto py-12 px-6">
+    <div className="container mx-auto py-12 ">
       <h1 className="lg:text-7xl text-4xl font-bold text-center  mb-8">
         Prices
       </h1>
