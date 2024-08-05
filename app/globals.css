@@ -2,10 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Carattere&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&family=Carattere&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 .carattere-regular {
   font-family: "Carattere", cursive;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+}
+.open-sans-1 {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }

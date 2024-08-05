@@ -2,25 +2,36 @@ import Link from "next/link";
 import Image from "next/image";
 const Navbar = () => {
   return (
-    <nav className="bg-pink-400 p-4 shadow-lg carattere-regular">
+    <nav className="bg-pink-400 p-4 shadow-lg fixed top-0 left-0 w-full z-50 bg-opacity-80">
       <div className="container mx-auto flex justify-between items-center">
-      <div className="flex items-center">
-          <Image src="/logo1.png" alt="Beauty Salon Logo" className="border rounded-full" width={60} height={60} />
-          <span className="text-white text-2xl font-bold ml-2 hidden lg:block">KUARTZ</span>
+        <div className="flex items-center">
+          <Image
+            src="/logo1.png"
+            alt="Beauty Salon Logo"
+            className="border rounded-full"
+            width={60}
+            height={60}
+          />
+          <span className="text-white text-2xl font-bold ml-2 hidden lg:block">
+            KUARTZ
+          </span>
         </div>
-        <div className="space-x-4">
+        <div className="lg:space-x-5 space-x-4 sm:text-xl text-lg">
           <Link className="text-white hover:text-gray-200" href="/">
             Home
           </Link>
-          <Link className="text-white hover:text-gray-200" href="/services">
+          <Link className="text-white hover:text-gray-200" href="/Services">
             Services
           </Link>
-          <Link href="/about" className="text-white hover:text-gray-200">
-            About
-          </Link>
-          <Link className="text-white hover:text-gray-200" href="/contact">
+          <Link className="text-white hover:text-gray-200" href="/Contact">
             Contact
           </Link>
+          <a
+            href="https://kuartz777.setmore.com/beta"
+            className="text-white hover:text-gray-200"
+          >
+            Book
+          </a>
         </div>
       </div>
     </nav>
