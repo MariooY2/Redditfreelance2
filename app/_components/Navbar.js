@@ -4,14 +4,16 @@ const Navbar = () => {
   return (
     <nav className="bg-pink-400 p-4 shadow-lg fixed top-0 left-0 w-full z-50 bg-opacity-80">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center">
+        <div className="flex items-center ">
+          <div className="">
           <Image
             src="/logo.png"
             alt="Beauty Salon Logo"
-            className="border rounded-full invert"
+            className="border rounded-full  bg-white"
             width={50}
             height={50}
           />
+          </div>
           <span className="text-white text-2xl font-bold ml-2 hidden lg:block">
             KUARTZ
           </span>
