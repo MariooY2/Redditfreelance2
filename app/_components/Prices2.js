@@ -104,7 +104,7 @@ function Prices2() {
 
   return (
     <div className="container mx-auto py-12 ">
-      <h1 className="lg:text-7xl text-4xl font-bold text-center  mb-8">
+      <h1 className="font-bold lg:text-7xl sm:text-4xl text-3xl text-center  mb-8">
         Prices
       </h1>
       <div className="flex flex-wrap justify-center gap-4 mb-8">

@@ -31,7 +31,7 @@ const services = [
 const Services = () => {
   return (
     <div className="container mx-auto py-10 sm:px-12 px-2 mt-16 lg:mt-20">
-      <h1 className="lg:text-7xl sm:text-4xl text-2xl font-bold text-center mb-14">
+      <h1 className="font-bold lg:text-7xl sm:text-4xl text-3xl text-center mb-14">
         Our Services
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12">

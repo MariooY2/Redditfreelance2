@@ -18,3 +18,25 @@
   font-variation-settings: "wdth" 100;
 }
 
+.invert{
+  filter: invert(10%) brightness(200%);
+}
+
+
+
+@media (max-width: 350px) {
+  .responsive {
+    margin-top: 180px;
+  }
+}
+
+@media (max-width: 300px) {
+  .responsive {
+    margin-top: 240px;
+  }
+}
+@media (max-width: 250px) {
+  .responsive {
+    margin-top: 300px;
+  }
+}

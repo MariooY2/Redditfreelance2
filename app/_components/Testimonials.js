@@ -75,7 +75,7 @@ function Testimonials() {
   ];
   return (
     <>
-      <div className=" flex justify-center items-center lg:text-7xl text-5xl font-bold mb-10">
+      <div className=" flex justify-center items-center font-bold lg:text-7xl sm:text-4xl text-3xl mb-10">
         Reviews
       </div>
       <div className="flex justify-center items-center mt-5 gap-14 flex-wrap">

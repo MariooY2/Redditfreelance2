@@ -6,9 +6,9 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Image
-            src="/logo1.png"
+            src="/logo.png"
             alt="Beauty Salon Logo"
-            className="border rounded-full"
+            className="border rounded-full invert"
             width={50}
             height={50}
           />
