@@ -1,3 +1,4 @@
+
 import Body from "./_components/Body";
 import Testimonials from "./_components/Testimonials";
 import Footer from "./_components/Footer";
@@ -7,6 +8,7 @@ export default function Home() {
    <>
    <div className="">
    <Body/>
+
    <About/>
    <Testimonials/>
    <Footer/>
